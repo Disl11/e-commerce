@@ -1,18 +1,23 @@
 /* amita-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Amita";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/amita-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/amita-v19-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* amita-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Amita";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/amita-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/amita-v19-latin-700.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* ! ---------------------- Global ----------------------- */
@@ -20,6 +25,111 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  /* Police générale du site */
+  margin: 0;
+  /* Supprime les marges par défaut */
+  background-color: white;
+  /* Fond blanc pour toute la page */
+}
+
+main {
+  padding: 30px;
+  /* Espace autour du contenu */
+  display: flex;
+  justify-content: center;
+  /* Centre le contenu horizontalement */
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  /* Aligne les éléments en haut */
+  gap: 30px;
+  /* Espace entre les colonnes */
+  background-color: white;
+}
+
+.product-img {
+  width: 90%;
+  /* Largeur maximale de l'image */
+  border: 2px solid #d9b3ff;
+  /* Bordure violette autour de l'image */
+  border-radius: 10px;
+  /* Coins arrondis */
+  height: auto;
+}
+
+
+.Produit-info {
+  background-color: #fdecda;
+  /* Fond beige clair */
+  padding: 40px;
+  /* Espace intérieur */
+  border-radius: 10px;
+  /* Coins arrondis */
+  min-width: 200px;
+  /* Largeur minimale */
+
+}
+
+.nom-prix {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* espace entre nom et prix */
+}
+
+
+.p-nom {
+  font-weight: bold;
+  /* Nom en gras */
+  font-size: 18px;
+  /* Taille de la police */
+}
+
+
+.p-prix {
+  font-size: 16px;
+  margin: 10px 0;
+  /* Marge haut et bas */
+}
+
+.p-stock {
+  color: green;
+  font-size: 14px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.btn1,
+.btn2 {
+  background-color: #b388eb;
+  /* Fond violet */
+  color: rgb(0, 0, 0);
+  /* Texte blanc */
+  padding: 10px;
+  border-radius: 6px;
+  /* Coins arrondis */
+  cursor: pointer;
+  /* Curseur pointeur */
+  font-weight: bold;
+  /* Texte en gras */
+  margin-top: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px
 }
 
 /* ! ---------------------- Header ----------------------- */
@@ -71,13 +181,13 @@ header .logo {
 }
 
 
-footer{
-    background-color: #c779ff73;
+footer {
+  background-color: #c779ff73;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -93,7 +203,7 @@ footer{
 }
 
 footer p {
- font-size: 12px;
+  font-size: 12px;
 }
 
 /* ---------------- Version Desktop (écrans plus grands) -------------------- */
