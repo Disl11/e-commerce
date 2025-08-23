@@ -70,6 +70,32 @@ header .logo {
   font-size: 20px;
 }
 
+
+footer{
+    background-color: #c779ff73;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.footer-links {
+  padding: 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  font-size: 12px;
+}
+
+footer p {
+ font-size: 12px;
+}
+
 /* ---------------- Version Desktop (écrans plus grands) -------------------- */
 
 @media (min-width: 601px) {
