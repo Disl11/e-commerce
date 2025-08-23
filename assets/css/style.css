@@ -170,6 +170,7 @@ margin-right: 55px;
   cursor: pointer;
 }
 
+
 .btnValider{
   height: 30px;
   width: 100px;
@@ -284,6 +285,11 @@ margin-right: 55px;
     width: 150px;
     font-size: 25px;
   }
+
+  .btnQuantite{
+  border-radius: 5px;
+}
+
 
   .produit, .livraison{
     font-size: 25px;
