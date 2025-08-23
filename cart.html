@@ -1,18 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panier</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panier</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="cart">
+  <header>
+    <div class="logo">
+      <h1>Tarte à beauté</h1>
+      <img src="assets/images/logo.png" alt="logo" width="100" height="90" />
+    </div>
+    <button id="cartBtn" class="cartBtn">
+      Mon panier <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </header>
+  <main>
+
+    <h2 class="title-cart">Mon panier</h2>
+    <div class="content-cart">
+      <!-- A retiré la section area pour afficher avec le DOM -->
+      <section id="area-product" class="area-product">
+        <article class="container-product">
+          <div class="imgPanier">
+            <img
+              src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+              alt="" height="150" width="auto">
+          </div>
+          <div class="info-product">
+            <div class="info">
+              <p>Lorem ipsum dolor sit amet consectetur. </p>
+              <p>5€</p>
+            </div>
+            <div>
+              <label for="quantite"></label>
+              <input type="number" id="quantite" class="btnQuantite" name="quantite" min="1" max="10" value="1">
+              <button class="btn-trash" id="btn-trash"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="container-product">
+          <div class="imgPanier">
+            <img
+              src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+              alt="" height="150" width="auto">
+          </div>
+          <div class="info-product">
+            <div class="info">
+              <p>Lorem ipsum dolor sit amet consectetur. </p>
+              <p>5€</p>
+            </div>
+            <div>
+              <label for="quantite"></label>
+              <input type="number" id="quantite" class="btnQuantite" min="1" max="10" value="1">
+              <button class="btn-trash" id="btn-trash"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="container-product">
+          <div class="imgPanier">
+            <img
+              src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+              alt="" height="150" width="auto">
+          </div>
+          <div class="info-product">
+            <div class="info">
+              <p>Lorem ipsum dolor sit amet consectetur. </p>
+              <p>5€</p>
+            </div>
+            <div>
+              <label for="quantite"></label>
+              <input type="number" id="quantite" class="btnQuantite" min="1" max="10" value="1">
+              <button class="btn-trash" id="btn-trash"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="area-prix" class="area-prix">
+        <div class="backIndex">
+          <button class="btnBackIndex" id="btnBackIndex">Continuer mes achats</button>
+        </div>
+        <article class="displayProduct">
+          <aside class="displayP">
+            <div class="produit">
+              <p>Produit</p>
+              <p>20€</p>
+            </div>
+            <div class="livraison">
+              <p>Livraison</p>
+              <p>5€</p>
+            </div>
+            <div class="total">
+              <p>Total</p>
+              <p>25€</p>
+            </div>
+          </aside>
+          <button class="btnValider" id="BtnValider">Valider</button>
+        </article>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links ">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="politique-confidentialite.html">Politique de confidentialité</a>
+        <a href="cgu.html">CGU</a>
+        <a href="cgv.html">CGV</a>
+      </div>
+      <p>© 2025 Tarte à beauté. Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+
 </html>
