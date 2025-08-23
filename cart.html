@@ -20,17 +20,14 @@
     </button>
   </header>
   <main>
-
     <h2 class="title-cart">Mon panier</h2>
     <div class="content-cart">
       <!-- A retiré la section area pour afficher avec le DOM -->
       <section id="area-product" class="area-product">
-        <article class="container-product">
-          <div class="imgPanier">
-            <img
-              src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
-              alt="" height="150" width="auto">
-          </div>
+        <!-- <article class="containerProduct">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="" height="150" width="auto" class="imgPanier">
           <div class="info-product">
             <div class="info">
               <p>Lorem ipsum dolor sit amet consectetur. </p>
@@ -44,11 +41,9 @@
           </div>
         </article>
         <article class="container-product">
-          <div class="imgPanier">
-            <img
-              src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
-              alt="" height="150" width="auto">
-          </div>
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="" height="150" width="auto" class="imgPanier">
           <div class="info-product">
             <div class="info">
               <p>Lorem ipsum dolor sit amet consectetur. </p>
@@ -62,11 +57,9 @@
           </div>
         </article>
         <article class="container-product">
-          <div class="imgPanier">
-            <img
-              src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
-              alt="" height="150" width="auto">
-          </div>
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="" height="150" width="auto" class="imgPanier">
           <div class="info-product">
             <div class="info">
               <p>Lorem ipsum dolor sit amet consectetur. </p>
@@ -78,7 +71,7 @@
               <button class="btn-trash" id="btn-trash"><i class="fa-solid fa-trash-can"></i></button>
             </div>
           </div>
-        </article>
+        </article> -->
       </section>
       <section id="area-prix" class="area-prix">
         <div class="backIndex">
@@ -96,7 +89,7 @@
             </div>
             <div class="total">
               <p>Total</p>
-              <p>25€</p>
+              <p id="total-price"></p>
             </div>
           </aside>
           <button class="btnValider" id="BtnValider">Valider</button>
@@ -115,6 +108,9 @@
       <p>© 2025 Tarte à beauté. Tous droits réservés.</p>
     </div>
   </footer>
+  <script type="module" src="./assets/js/pages/cart.js">
+
+  </script>
 </body>
 
 </html>

@@ -124,7 +124,7 @@ margin-right: 55px;
   border-bottom:solid #c779ff73 ;
 }
 
-.container-product{
+.containerProduct{
   display: flex;
   flex-direction: column;
   border:solid #c779ff73;
@@ -146,7 +146,9 @@ margin-right: 55px;
 
 .btn-trash{
   border: none;
+  cursor: pointer;
 }
+
 .backIndex{
   display: flex;
   justify-content: center;
@@ -237,7 +239,7 @@ margin-right: 55px;
   }
 
   /* Produits en row */
-  .container-product {
+  .containerProduct {
     flex-direction: row;
     align-items: center;
   }
@@ -245,7 +247,6 @@ margin-right: 55px;
   .imgPanier {
     flex: 1;
     border-bottom: none;
-    padding: 10px;
     border-right: solid #c779ff73; ;
   }
 
