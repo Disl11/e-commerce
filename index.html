@@ -1,37 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarte à beauté</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tarte à beauté</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-
-<body>
-  <header>
-    <div class="logo">
-      <h1>Tarte à beauté</h1>
-      <img src="assets/images/logo.png" alt="logo" width="100" height="90" />
-    </div>
-    <button id="cartBtn" class="cartBtn">
-      Mon panier <i class="fa-solid fa-cart-shopping"></i>
-    </button>
-  </header>
-  <main></main>
-
-  <footer>
-    <div class="footer-container">
-      <div class="footer-links ">
-        <a href="mentions-legales.html">Mentions légales</a>
-        <a href="politique-confidentialite.html">Politique de confidentialité</a>
-        <a href="cgu.html">CGU</a>
-        <a href="cgv.html">CGV</a>
+  <body class="index">
+    <header>
+      <div class="logo">
+        <h1>Tarte à beauté</h1>
+        <img src="assets/images/logo.png" alt="logo" width="100" height="90" />
       </div>
-      <p>© 2025 Tarte à beauté. Tous droits réservés.</p>
-    </div>
-  </footer>
-</body>
+      <button id="cartBtn" class="cartBtn">
+        Mon panier <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+    </header>
 
+    <main class="index">
+      <section class="filter">
+        <ul class="tags">
+          <li><button>Gluten Free</button></li>
+          <li><button>CertClean</button></li>
+          <li><button>Vegan</button></li>
+          <li><button>purpicks</button></li>
+          <li><button>Organic</button></li>
+          <li><button>Gluten Free</button></li>
+          <li><button>CertClean</button></li>
+          <li><button>Vegan</button></li>
+          <li><button>purpicks</button></li>
+        </ul>
+        <div class="search-container">
+          <input type="text" placeholder="Rechercher" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </section>
+      <section class="products">
+        <article class="product" data-id="1">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="image du produit"
+            onerror="this.onerror=null; this.src='./assets/images/noproductpic.png';"
+          />
+          <div class="product-info">
+            <div class="title-and-price">
+              <h3>L'Oreal Paris Voluminous Mascara</h3>
+              <p>9,99€</p>
+            </div>
+            <div class="stock-and-add">
+              <p>Stock: 41</p>
+              <button>Ajouter <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="product" data-id="1">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="image du produit"
+          />
+          <div class="product-info">
+            <div class="title-and-price">
+              <h3>L'Oreal Paris Voluminous Mascara</h3>
+              <p>9,99€</p>
+            </div>
+            <div class="stock-and-add">
+              <p>Stock: 41</p>
+              <button>Ajouter <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="product" data-id="1">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="image du produit"
+          />
+          <div class="product-info">
+            <div class="title-and-price">
+              <h3>L'Oreal Paris Voluminous Mascara</h3>
+              <p>9,99€</p>
+            </div>
+            <div class="stock-and-add">
+              <p>Stock: 41</p>
+              <button>Ajouter <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="product" data-id="1">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="image du produit"
+          />
+          <div class="product-info">
+            <div class="title-and-price">
+              <h3>L'Oreal Paris Voluminous Mascara</h3>
+              <p>9,99€</p>
+            </div>
+            <div class="stock-and-add">
+              <p>Stock: 41</p>
+              <button>Ajouter <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="product" data-id="1">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="image du produit"
+          />
+          <div class="product-info">
+            <div class="title-and-price">
+              <h3>L'Oreal Paris Voluminous Mascara</h3>
+              <p>9,99€</p>
+            </div>
+            <div class="stock-and-add">
+              <p>Stock: 41</p>
+              <button>Ajouter <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="product" data-id="1">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="image du produit"
+          />
+          <div class="product-info">
+            <div class="title-and-price">
+              <h3>L'Oreal Paris Voluminous Mascara</h3>
+              <p>9,99€</p>
+            </div>
+            <div class="stock-and-add">
+              <p>Stock: 41</p>
+              <button>Ajouter <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </article>
+        <article class="product" data-id="1">
+          <img
+            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
+            alt="image du produit"
+          />
+          <div class="product-info">
+            <div class="title-and-price">
+              <h3>L'Oreal Paris Voluminous Mascara</h3>
+              <p>9,99€</p>
+            </div>
+            <div class="stock-and-add">
+              <p>Stock: 41</p>
+              <button>Ajouter <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="politique-confidentialite.html"
+            >Politique de confidentialité</a
+          >
+          <a href="cgu.html">CGU</a>
+          <a href="cgv.html">CGV</a>
+        </div>
+        <p>© 2025 Tarte à beauté. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
 </html>
