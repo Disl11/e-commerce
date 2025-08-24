@@ -128,6 +128,7 @@ margin-right: 55px;
   object-fit: cover;
   border-bottom:solid #c779ff73 ;
   border-radius: 10px;
+
 }
 
 .containerProduct{
@@ -177,7 +178,8 @@ margin-right: 55px;
 .input-and-trash{
   display: flex;
   width: 90%;
-  justify-content: space-between;
+  gap: 15px;
+
 
 }
 
@@ -261,7 +263,6 @@ margin-right: 55px;
   
     .content-cart {
     display: flex;
-    align-items: center;
   }
 
   .area-product {
@@ -279,19 +280,20 @@ margin-right: 55px;
     flex: 1;
     border-bottom: none;
     border-right: solid #c779ff73; ;
+    height: 150px;
   }
 
   .info-product {
     flex: 2;
     padding: 10px;
-    height: 150px;
+    height: 130px;
   }
 
   .btnBackIndex{
-    height: 40px;
+    height: 30px;
     width: 300px;
-    font-size: 20px;
-    margin-bottom: 50px;
+    font-size: 17px;
+    margin-top: 30px;
   }
 
   .area-prix {
@@ -312,9 +314,9 @@ margin-right: 55px;
 
   .btnValider {
     align-self: center;
-    height: 40px;
+    height: 30px;
     width: 150px;
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .btnQuantite{
@@ -332,13 +334,13 @@ margin-right: 55px;
 
 
   .produit, .livraison{
-    font-size: 25px;
+    font-size: 23px;
     margin-left:10px ;
     margin-right:10px ;
   }
 
   .total{
-    font-size: 35px;
+    font-size: 28px;
     margin-left:10px ;
     margin-right:10px ;
     margin-top: 50px;
