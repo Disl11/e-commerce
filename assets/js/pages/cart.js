@@ -1,28 +1,13 @@
 // logique page panier (lignes, totaux, actions)
 // rendu lignes, gestion +/−/supprimer, recalcul sous-totaux et total, bornage au stock
 
+import { getCart } from "../shared/state.js";
+
+console.log(getCart());
+
+
 
 const areaProduct = document.querySelector("#area-product");
-
-const produits = [
-    {
-        img: "https://picsum.photos/150/150",
-        desc: "Lorem ipsum dolor sit amet consectetur.",
-        price: "25€"
-    },
-    {
-        img: "https://picsum.photos/150/150",
-        desc: "Deuxième produit exemple",
-        price: "10€"
-    },
-    {
-        img: "https://picsum.photos/150/150?random=3",
-        desc: "Troisième produit exemple",
-        price: "15€"
-    }
-
-];
-
 
 function displayProduct(produit) {
     areaProduct.innerHTML = "";
@@ -33,7 +18,7 @@ function displayProduct(produit) {
         containerProduct.classList.add("containerProduct");
 
         const imgPanier = document.createElement("img");
-        imgPanier.src = produit[i].img
+        imgPanier.src = produit[i].api_featured_image;
         imgPanier.alt = "image du produit"
         imgPanier.classList.add("imgPanier");
 
@@ -45,15 +30,29 @@ function displayProduct(produit) {
         info.classList.add("info");
 
         const desc = document.createElement("p");
-        desc.textContent = produit[i].desc;
+        desc.textContent = produit[i].name;
 
-        const price = document.createElement("p");
-        price.textContent = produit[i].price;
+        const itemPrice = document.createElement("p");
+        itemPrice.textContent = produit[i].price + " €";
+
+        const stock = document.createElement("p");
+        stock.classList.add("stock");
+        updatStockDisplay(produit[i], stock);
+
 
         info.appendChild(desc);
-        info.appendChild(price);
+        info.appendChild(itemPrice);
+        info.appendChild(stock);
 
         const controls = document.createElement("div");
+        controls.classList.add("controls");
+
+        const price = document.createElement("p");
+        price.textContent = produit[i].price + " €";
+        price.classList.add("price")
+
+        const it = document.createElement("div");
+        it.classList.add("input-and-trash")
 
         const label = document.createElement("label");
         label.setAttribute("for", "quantite");
@@ -64,15 +63,19 @@ function displayProduct(produit) {
         input.name = "quantite";
         input.classList.add("btnQuantite");
         input.min = "1";
-        input.max = "10";
+        input.max = produit[i].stock < "10" ? produit[i].stock : "10";
         input.value = "1";
+
+        input.addEventListener("input", () => {
+            updateItemPrice(produit, i, price, input)
+        })
 
         const btnTrash = document.createElement("button");
         btnTrash.classList.add("btn-trash");
         btnTrash.id = "btn-trash";
 
         btnTrash.addEventListener("click", () => {
-            deleteArticle(produits, i);
+            deleteArticle(produit, i);
         })
 
         const icon = document.createElement("i");
@@ -80,9 +83,11 @@ function displayProduct(produit) {
 
         btnTrash.appendChild(icon);
 
+        controls.appendChild(price);
         controls.appendChild(label);
-        controls.appendChild(input);
-        controls.appendChild(btnTrash);
+        controls.appendChild(it);
+        it.appendChild(input);
+        it.appendChild(btnTrash);
 
         infoProduct.appendChild(info);
         infoProduct.appendChild(controls);
@@ -91,13 +96,21 @@ function displayProduct(produit) {
         containerProduct.appendChild(infoProduct);
 
         areaProduct.appendChild(containerProduct);
-        console.log(produits[i]);
+        console.log(produit[i]);
     }
+
+
+
     const totalPanier = calculateTotal(produit);
-    document.getElementById("total-price").textContent = totalPanier + " €";
+    const fraisLivraison = calculateDelivery(totalPanier);
+
+    document.getElementById("frais-livraison").textContent = fraisLivraison + " €"
+    document.getElementById("price-produit").textContent = totalPanier + " €"
+    document.getElementById("total-price").textContent = (totalPanier + fraisLivraison) + " €";
+
 }
 
-displayProduct(produits);
+displayProduct(getCart());
 
 
 function deleteArticle(produit, i) {
@@ -105,14 +118,55 @@ function deleteArticle(produit, i) {
     const areaProduct = document.querySelector("#area-product");
     areaProduct.innerHTML = "";
     produit.splice(i, 1);
-    displayProduct(produits);
+    displayProduct(produit);
 }
 
-function calculateTotal(produit) {
 
+function calculateTotal(produit) {
     let total = 0;
     for (let i = 0; i < produit.length; i++) {
-        total += parseFloat(produit[i].price.replace("€", ""));
+        const basePrice = parseFloat(produit[i].price);
+        const quantite = produit[i].quantity || 1;
+        total += basePrice * quantite;
     }
     return total;
+}
+
+function calculateDelivery(total) {
+    if (total <= 25) {
+        return 0
+    } else {
+        return 3.5
+    }
+}
+
+function updateItemPrice(produit, i, price, input) {
+
+    let checkStock = parseInt(input.value);
+    if (checkStock > produit[i].stock) {
+        alert("Stock insuffisant");
+    }
+
+    const basePrice = parseFloat(produit[i].price);
+    const totalItem = basePrice * parseInt(input.value);
+    price.textContent = totalItem + " €"
+
+    produit[i].quantity = parseInt(input.value);
+
+    const totalPanier = calculateTotal(produit);
+    const fraisLivraison = calculateDelivery(totalPanier);
+
+    document.getElementById("price-produit").textContent = totalPanier.toFixed(2) + " €";
+    document.getElementById("frais-livraison").textContent = (fraisLivraison).toFixed(2) + " €";
+    document.getElementById("total-price").textContent = (totalPanier + fraisLivraison).toFixed(2) + " €";
+}
+
+function updatStockDisplay(product, productStock) {
+    if (product.stock > 10) { 
+        productStock.textContent = "En stock : " +  product.stock ; 
+        productStock.style.color = "green"; 
+    } else { 
+        productStock.textContent = "Stock faible : " +  product.stock ; 
+        productStock.style.color = "red"; 
+    }
 }

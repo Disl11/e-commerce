@@ -22,77 +22,29 @@
   <main>
     <h2 class="title-cart">Mon panier</h2>
     <div class="content-cart">
-      <!-- A retiré la section area pour afficher avec le DOM -->
       <section id="area-product" class="area-product">
-        <!-- <article class="containerProduct">
-          <img
-            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
-            alt="" height="150" width="auto" class="imgPanier">
-          <div class="info-product">
-            <div class="info">
-              <p>Lorem ipsum dolor sit amet consectetur. </p>
-              <p>5€</p>
-            </div>
-            <div>
-              <label for="quantite"></label>
-              <input type="number" id="quantite" class="btnQuantite" name="quantite" min="1" max="10" value="1">
-              <button class="btn-trash" id="btn-trash"><i class="fa-solid fa-trash-can"></i></button>
-            </div>
-          </div>
-        </article>
-        <article class="container-product">
-          <img
-            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
-            alt="" height="150" width="auto" class="imgPanier">
-          <div class="info-product">
-            <div class="info">
-              <p>Lorem ipsum dolor sit amet consectetur. </p>
-              <p>5€</p>
-            </div>
-            <div>
-              <label for="quantite"></label>
-              <input type="number" id="quantite" class="btnQuantite" min="1" max="10" value="1">
-              <button class="btn-trash" id="btn-trash"><i class="fa-solid fa-trash-can"></i></button>
-            </div>
-          </div>
-        </article>
-        <article class="container-product">
-          <img
-            src="https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375"
-            alt="" height="150" width="auto" class="imgPanier">
-          <div class="info-product">
-            <div class="info">
-              <p>Lorem ipsum dolor sit amet consectetur. </p>
-              <p>5€</p>
-            </div>
-            <div>
-              <label for="quantite"></label>
-              <input type="number" id="quantite" class="btnQuantite" min="1" max="10" value="1">
-              <button class="btn-trash" id="btn-trash"><i class="fa-solid fa-trash-can"></i></button>
-            </div>
-          </div>
-        </article> -->
+        <!-- display article -->
       </section>
       <section id="area-prix" class="area-prix">
         <div class="backIndex">
-          <button class="btnBackIndex" id="btnBackIndex">Continuer mes achats</button>
+          <button class="btnBackIndex" id="btnBackIndex"><a href="index.html">Continuer mes achats</a></button>
         </div>
         <article class="displayProduct">
           <aside class="displayP">
             <div class="produit">
               <p>Produit</p>
-              <p>20€</p>
+              <p id="price-produit"></p>
             </div>
             <div class="livraison">
               <p>Livraison</p>
-              <p>5€</p>
+              <p id="frais-livraison"></p>
             </div>
             <div class="total">
               <p>Total</p>
               <p id="total-price"></p>
             </div>
           </aside>
-          <button class="btnValider" id="BtnValider">Valider</button>
+          <button class="btnValider" id="BtnValider"><a href="checkout.html">Valider</a></button>
         </article>
       </section>
     </div>
