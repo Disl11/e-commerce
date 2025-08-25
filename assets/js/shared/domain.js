@@ -2,7 +2,7 @@
 // règles panier (bornage au stock, total)
 import { getProduct } from "./api.js";
 import { getCart, saveCart } from "./state.js";
-import { refreshCartTooltip } from "../pages/index.js";
+// import { refreshCartTooltip } from "../pages/index.js";
 
 export const addProductToCart = async function (
   productId,

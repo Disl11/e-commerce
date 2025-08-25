@@ -556,3 +556,185 @@ main.index {
     margin-top: 50px;
   }
 }
+
+/* ------------------- Page product ----------------------- */
+
+body.product-page {
+  font-family: "Arial", sans-serif;
+  /* Police générale du site */
+  margin: 0;
+  /* Supprime les marges par défaut */
+  background-color: var(--tertiary-color);
+  /* Fond blanc pour toute la page */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main.product-page {
+  padding: 30px;
+  /* Espace autour du contenu */
+  display: flex;
+  justify-content: center;
+  /* Centre le contenu horizontalement */
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  /* Aligne les éléments en haut */
+  gap: 30px;
+  /* Espace entre les colonnes */
+  background-color: var(--tertiary-color);
+}
+
+.product-img {
+  width: 100%;
+  /* Largeur maximale de l'image */
+  border: 4px solid #c779ff73;
+  /* Bordure violette autour de l'image */
+  border-radius: 10px;
+  /* Coins arrondis */
+  height: auto;
+}
+
+.Produit-info {
+  background-color: var(--secondary-color);
+  /* Fond beige clair */
+  padding: 40px;
+  /* Espace intérieur */
+  border-radius: 10px;
+  /* Coins arrondis */
+  min-width: 200px;
+  /* Largeur minimale */
+}
+
+.nom-prix {
+  display: flex;
+  gap: 9px;
+  /* espace entre nom et prix */
+  flex-direction: column;
+}
+
+.p-nom {
+  font-size: 18px;
+  /* Taille de la police */
+}
+
+.p-prix {
+  font-size: 16px;
+  margin: 10px 0;
+  /* Marge haut et bas */
+}
+
+.p-stock {
+  color: green;
+  font-size: 14px;
+}
+
+.avis {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.btn1,
+.btn2 {
+  background-color: var(--primary-color);
+  /* Fond violet */
+  color: rgb(0, 0, 0);
+  /* Texte blanc */
+  padding: 10px;
+  border-radius: 6px;
+  /* Coins arrondis */
+  cursor: pointer;
+  /* Curseur pointeur */
+  font-weight: bold;
+  /* Texte en gras */
+  margin-top: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ---------------- Version Desktop (écrans plus grands) -------------------- */
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--tertiary-color);
+  }
+
+  .product-img {
+    width: 100%;
+    border: 4px solid #c779ff73;
+    border-radius: 10px;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .Produit-info {
+    background-color: var(--secondary-color);
+    padding: 40px;
+    border-radius: 10px;
+    min-width: 100px;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+  }
+
+  .btn1,
+  .btn2 {
+    background-color: var(--primary-color);
+    /* Fond violet */
+    color: rgb(0, 0, 0);
+    /* Texte blanc */
+    padding: 10px;
+    border-radius: 6px;
+    /* Coins arrondis */
+    cursor: pointer;
+    /* Curseur pointeur */
+    font-weight: bold;
+    /* Texte en gras */
+    margin-top: 20px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-links {
+    padding: 15px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    font-size: 12px;
+  }
+}
