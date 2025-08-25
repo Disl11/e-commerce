@@ -23,7 +23,7 @@ export const addProductToCart = async function (
     cart.push({ product: product, numberInCart: 1 });
     saveCart(cart);
   }
-  if (refreshTooltip) refreshCartTooltip();
+  // if (refreshTooltip) refreshCartTooltip();
 };
 
 export const removeProductFromCart = async function (productId) {

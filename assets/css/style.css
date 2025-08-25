@@ -55,6 +55,10 @@ header .logo {
   margin: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .cartBtn {
   width: 40px;
   height: 40px;
