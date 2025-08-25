@@ -50,15 +50,19 @@ function generateProductArticle(product) {
   }€`;
 
   const productStock = template.querySelector(".stock-and-add p");
-  if (product.stock > 10) {
-    productStock.textContent = `En stock: ${product.stock}`;
-    productStock.style.color = "green";
-  } else {
+  if (!product.stock) {
+    productStock.textContent = `Rupture`;
+    productStock.style.color = "grey";
+  } else if (product.stock && product.stock < 10) {
     productStock.textContent = `Stock faible: ${product.stock}`;
     productStock.style.color = "red";
+  } else {
+    productStock.textContent = `En stock: ${product.stock}`;
+    productStock.style.color = "green";
   }
 
   const addToCartBtn = template.querySelector(".stock-and-add button");
+  if (product.stock === 0) addToCartBtn.disabled = true;
   addToCartBtn.addEventListener("click", () => addProductToCart(product.id));
 
   document.querySelector("main .products").appendChild(template);

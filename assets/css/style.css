@@ -241,6 +241,13 @@ main.index {
             justify-content: center;
             align-items: center;
             gap: 0.5rem;
+            &:hover {
+              background-color: var(--quaternary-color);
+            }
+            &:disabled {
+              background-color: #ccc;
+              cursor: not-allowed;
+            }
           }
         }
       }
