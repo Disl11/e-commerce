@@ -34,16 +34,20 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Arial', sans-serif;
+body.product-page {
+  font-family: "Arial", sans-serif;
   /* Police générale du site */
   margin: 0;
   /* Supprime les marges par défaut */
   background-color: var(--tertiary-color);
   /* Fond blanc pour toute la page */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-main {
+main.product-page {
   padding: 30px;
   /* Espace autour du contenu */
   display: flex;
@@ -70,7 +74,6 @@ main {
   height: auto;
 }
 
-
 .Produit-info {
   background-color: var(--secondary-color);
   /* Fond beige clair */
@@ -80,7 +83,6 @@ main {
   /* Coins arrondis */
   min-width: 200px;
   /* Largeur minimale */
-
 }
 
 .nom-prix {
@@ -90,12 +92,10 @@ main {
   flex-direction: column;
 }
 
-
 .p-nom {
   font-size: 18px;
   /* Taille de la police */
 }
-
 
 .p-prix {
   font-size: 16px;
@@ -111,7 +111,6 @@ main {
 .avis {
   display: flex;
   flex-direction: column;
-
 }
 
 .btn {
@@ -140,7 +139,7 @@ main {
 .section {
   display: flex;
   flex-direction: column;
-  gap: 15px
+  gap: 15px;
 }
 
 @media (max-width: 768px) {
@@ -165,7 +164,6 @@ main {
     padding: 40px;
     border-radius: 10px;
     min-width: 100px;
-
   }
 
   .btn {
@@ -194,9 +192,7 @@ main {
   .section {
     display: flex;
     flex-direction: column;
-
   }
-
 
   .footer-container {
     display: flex;
@@ -214,8 +210,6 @@ main {
     display: flex;
     font-size: 12px;
   }
-
-
 }
 
 /* ! ---------------------- Header ----------------------- */
@@ -265,7 +259,6 @@ header .logo {
   transform: none;
   font-size: 20px;
 }
-
 
 footer {
   background-color: var(--quaternary-color);
