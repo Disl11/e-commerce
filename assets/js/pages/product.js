@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Ajoute la div image dans la structure principale
 	container.appendChild(productImageDiv);
 
-	// Crée une section pour les infos produit (nom, prix, boutons)
+	// Crée une section pour les infos produit (nom, prix, boutons et avis)
 	const section = document.createElement("div");
 	section.className = "section";
 
@@ -54,10 +54,15 @@ document.addEventListener("DOMContentLoaded", function () {
 	prix.className = "p-prix";
 	prix.textContent = "19€"; // texte affiché
 
+	const avis = document.createElement("p");
+	avis.className = "Avis client";
+	avis.textContent = "Avis:8,5/10";
+
 	// Ajoute le nom et le prix ensemble dans la div
-	nomPrix.append(nom, prix);
+	nomPrix.append(nom, prix, avis);
 	// Ajoute la div "nom-prix" dans la div "Produit-info"
 	productInfo.appendChild(nomPrix);
+
 	// stock
 	// Déclare une variable pour suivre le stock restant
 	let stockCount = 4;
@@ -80,12 +85,12 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Crée le bouton "add to cart"
 	const btn1 = document.createElement("button");
 	btn1.className = "btn1";
-	btn1.textContent = "add to cart";
+	btn1.textContent = "add";
 
 	// Crée le bouton "continue with purchase"
 	const btn2 = document.createElement("button");
 	btn2.className = "btn2";
-	btn2.textContent = "continue with purchase";
+	btn2.textContent = "continue your shopping";
 
 	// Ajoute les deux boutons dans la div "btn"
 	btnDiv.append(btn1, btn2);
@@ -95,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Ajoute la section entière dans le container principal
 	container.appendChild(section);
-	// Quand on clique sur le bouton "add to cart"
+	// Quand on clique sur le bouton "add"
 	btn1.addEventListener("click", function () {
 		// Vérifie s'il reste du stock (stockCount > 0)
 		if (stockCount > 0) {
