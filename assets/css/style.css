@@ -118,7 +118,7 @@ footer p {
   font-size: 12px;
 }
 
-/* ! ---------------- index ------------------ */
+/* ! ---------------- page index ------------------ */
 
 header.index {
   .cartBtn {
@@ -274,6 +274,8 @@ main.index {
   }
 }
 
+/* ---------------- Version Desktop (écrans plus grands) -------------------- */
+
 @media (min-width: 400px) {
   main.index {
     .products {
@@ -315,5 +317,242 @@ main.index {
     .products {
       grid-template-columns: repeat(5, 1fr);
     }
+  }
+}
+
+/* ------------------- Page cart ----------------------- */
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.title-cart {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.area-product {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.imgPanier {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  border-bottom: solid #c779ff73;
+  border-radius: 10px;
+}
+
+.containerProduct {
+  display: flex;
+  flex-direction: column;
+  border: solid #c779ff73;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #fdecda;
+}
+
+.info-product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  width: 50%;
+  margin: 5px;
+}
+
+.stock {
+  margin-top: 5px;
+}
+
+.btn-trash {
+  border: none;
+  cursor: pointer;
+  background-color: #fdecda;
+}
+
+.backIndex {
+  display: flex;
+  justify-content: center;
+}
+
+.controls {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.input-and-trash {
+  display: flex;
+  width: 90%;
+  gap: 15px;
+}
+
+.price {
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+}
+
+.btnQuantite {
+  border: none;
+  background-color: #c779ff73;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btnBackIndex,
+.btnValider {
+  border: none;
+  background-color: #c779ff73;
+  padding: 3px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btnValider {
+  height: 30px;
+  width: 100px;
+}
+
+.displayProduct {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.displayP {
+  background-color: #fdecda;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.produit,
+.livraison {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+/* ---------------- Version Desktop (écrans plus grands) -------------------- */
+
+@media (min-width: 601px) {
+  .cartBtn {
+    height: 25px;
+    width: auto;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
+    gap: 20px;
+  }
+
+  .title-cart {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .content-cart {
+    display: flex;
+  }
+
+  .area-product {
+    flex: 1;
+    margin-left: 100px;
+  }
+
+  /* Produits en row */
+  .containerProduct {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .imgPanier {
+    flex: 1;
+    border-bottom: none;
+    border-right: solid #c779ff73;
+    height: 150px;
+  }
+
+  .info-product {
+    flex: 2;
+    padding: 10px;
+    height: 130px;
+  }
+
+  .btnBackIndex {
+    height: 30px;
+    width: 300px;
+    font-size: 17px;
+    margin-top: 30px;
+  }
+
+  .area-prix {
+    flex: 1;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .displayProduct {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .displayP {
+    height: 150px;
+  }
+
+  .btnValider {
+    align-self: center;
+    height: 30px;
+    width: 150px;
+    font-size: 21px;
+  }
+
+  .btnQuantite {
+    border-radius: 5px;
+  }
+
+  .info {
+    font-size: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .produit,
+  .livraison {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .total {
+    font-size: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
   }
 }
