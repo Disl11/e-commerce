@@ -43,7 +43,7 @@ function displayProduct(produit) {
     const controls = document.createElement("div");
     controls.classList.add("controls");
 
-    // prix input
+    // prix input sous total
     const price = document.createElement("p");
     price.textContent = produit[i].product.price + " €";
     price.classList.add("price");
@@ -51,24 +51,50 @@ function displayProduct(produit) {
     const it = document.createElement("div");
     it.classList.add("input-and-trash");
 
+    const divTrash = document.createElement("div")
+    divTrash.classList.add("divTrash");
+
     const label = document.createElement("label");
     label.setAttribute("for", "quantite");
 
-    const input = document.createElement("input");
-    input.value = produit[i].numberInCart;
+    const btnMore = document.createElement("button");
+    btnMore.classList.add("btnMore");
+    btnMore.textContent = "+"
 
-    input.type = "number";
+    btnMore.addEventListener("click", () => {
+      let valeur = parseInt(input.value);
+      if (valeur < input.max) {
+        valeur ++;
+        input.value = valeur;
+      }
+      updateItemPrice(produit, i, price, input);
+    });
+
+    const btnLess = document.createElement("button");
+    btnLess.classList.add("btnLess");
+    btnLess.textContent = "-"
+
+    btnLess.addEventListener("click", () => {
+      let valeur = parseInt(input.value);
+      if (valeur > input.min) {
+        valeur --;
+        input.value = valeur;
+      }
+      updateItemPrice(produit, i, price, input);
+    });
+
+    const input = document.createElement("input");
     input.id = "quantite";
     input.name = "quantite";
     input.classList.add("btnQuantite");
     input.min = "1";
-    input.max =
-      produit[i].product.stock < "10" ? produit[i].product.stock : "10";
+    input.max = produit[i].product.stock < "11" ? produit[i].product.stock : "11";
     input.value = "1";
-
     input.addEventListener("input", () => {
-      updateItemPrice(produit, i, price, input);
+      updateItemPrice();
     });
+
+
     // updateProductStockInCart(produit[i].numberInCart);
     // console.log(produit[i].numberInCart);
 
@@ -88,7 +114,9 @@ function displayProduct(produit) {
     controls.appendChild(price);
     controls.appendChild(label);
     controls.appendChild(it);
+    it.appendChild(btnLess);
     it.appendChild(input);
+    it.appendChild(btnMore);
     it.appendChild(btnTrash);
 
     infoProduct.appendChild(info);
@@ -142,14 +170,17 @@ function calculateDelivery(total) {
 }
 
 function updateItemPrice(produit, i, price, input) {
+  
   let checkStock = parseInt(input.value);
-  if (checkStock > produit[i].product.stock) {
-    alert("Stock insuffisant");
+
+  if (checkStock > 10) {
+    alert("Maximum d'articles 10 ");
+    input.value = 10;
   }
 
   const basePrice = parseFloat(produit[i].product.price);
   const totalItem = basePrice * parseInt(input.value);
-  price.textContent = totalItem + " €";
+  price.textContent = totalItem.toFixed(2) + " €";
 
   produit[i].quantity = parseInt(input.value);
 

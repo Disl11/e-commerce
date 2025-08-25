@@ -42,6 +42,7 @@ export const removeProductFromCart = async function (productId) {
   }
 };
 
+
 export const updateProductStockInCart = async function (productId, newStock) {
   const product = await getProduct(productId);
 
