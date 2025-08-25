@@ -1,7 +1,10 @@
 // logique page accueil (liste, filtre, recherche)
 // chargement produits, rendu liste, filtre, recherche, affichage stock
 import { getProducts } from "../shared/api.js";
-import { addProductToCart } from "../shared/domain.js";
+import {
+  addProductToCart,
+  getNumberOfProductsInCart,
+} from "../shared/domain.js";
 import { clearInputValue } from "../shared/utils.js";
 
 const productsData = await getProducts();
@@ -11,6 +14,7 @@ const searchInput = document.querySelector(".search-container input");
 searchInput.addEventListener("input", () => filterByInput(productsData));
 
 refreshProducts(productsData);
+refreshCartTooltip();
 
 function generateTag(tag) {
   const tagLi = document.createElement("li");
@@ -63,7 +67,9 @@ function generateProductArticle(product) {
 
   const addToCartBtn = template.querySelector(".stock-and-add button");
   if (product.stock === 0) addToCartBtn.disabled = true;
-  addToCartBtn.addEventListener("click", () => addProductToCart(product.id));
+  addToCartBtn.addEventListener("click", () => {
+    addProductToCart(product.id, true);
+  });
 
   document.querySelector("main .products").appendChild(template);
 }
@@ -180,5 +186,24 @@ function generateProductsByPage(products, select, scrollToTop = true) {
   }
   if (scrollToTop) {
     scrollTo(0, 0);
+  }
+}
+
+export function refreshCartTooltip() {
+  const productsInCart = getNumberOfProductsInCart();
+
+  if (productsInCart) {
+    if (!document.body.contains(document.querySelector(".cart-tooltip"))) {
+      const tooltip = document.createElement("span");
+      tooltip.classList.add("cart-tooltip");
+      tooltip.textContent = productsInCart;
+      document.querySelector(".cartBtn").appendChild(tooltip);
+    } else {
+      document.querySelector(".cart-tooltip").textContent = productsInCart;
+    }
+  } else {
+    if (document.body.contains(document.querySelector(".cart-tooltip"))) {
+      document.querySelector(".cart-tooltip").remove();
+    }
   }
 }
