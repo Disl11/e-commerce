@@ -2,8 +2,12 @@
 // règles panier (bornage au stock, total)
 import { getProduct } from "./api.js";
 import { getCart, saveCart } from "./state.js";
+// import { refreshCartTooltip } from "../pages/index.js";
 
-export const addProductToCart = async function (productId) {
+export const addProductToCart = async function (
+  productId,
+  refreshTooltip = false
+) {
   const product = await getProduct(productId);
 
   const cart = getCart();
@@ -19,6 +23,7 @@ export const addProductToCart = async function (productId) {
     cart.push({ product: product, numberInCart: 1 });
     saveCart(cart);
   }
+  if (refreshTooltip) refreshCartTooltip();
 };
 
 export const removeProductFromCart = async function (productId) {
@@ -55,3 +60,5 @@ export const updateProductStockInCart = async function (productId, newStock) {
     saveCart(cart);
   }
 };
+
+export const getNumberOfProductsInCart = () => getCart().length;

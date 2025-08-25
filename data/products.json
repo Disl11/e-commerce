@@ -13,7 +13,10 @@
     "rating": null,
     "category": "pencil",
     "product_type": "lip_liner",
-    "tag_list": ["cruelty free", "Vegan"],
+    "tag_list": [
+      "cruelty free",
+      "Vegan"
+    ],
     "created_at": "2018-07-08T23:45:08.056Z",
     "updated_at": "2018-07-09T00:53:23.301Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1048.json",
@@ -35,7 +38,10 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["cruelty free", "Vegan"],
+    "tag_list": [
+      "cruelty free",
+      "Vegan"
+    ],
     "created_at": "2018-07-08T22:01:20.178Z",
     "updated_at": "2018-07-09T00:53:23.287Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1047.json",
@@ -86,7 +92,10 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["cruelty free", "Vegan"],
+    "tag_list": [
+      "cruelty free",
+      "Vegan"
+    ],
     "created_at": "2018-07-08T21:47:49.858Z",
     "updated_at": "2018-07-09T00:53:23.274Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1046.json",
@@ -293,7 +302,10 @@
     "rating": null,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["cruelty free", "Vegan"],
+    "tag_list": [
+      "cruelty free",
+      "Vegan"
+    ],
     "created_at": "2018-07-08T18:22:25.273Z",
     "updated_at": "2018-07-09T00:53:23.313Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1045.json",
@@ -484,7 +496,10 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Chemical Free", "Organic"],
+    "tag_list": [
+      "Chemical Free",
+      "Organic"
+    ],
     "created_at": "2018-07-08T17:32:28.088Z",
     "updated_at": "2018-09-02T22:52:06.669Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1044.json",
@@ -797,7 +812,10 @@
     "rating": null,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["purpicks", "EcoCert"],
+    "tag_list": [
+      "purpicks",
+      "EcoCert"
+    ],
     "created_at": "2018-06-30T19:19:32.312Z",
     "updated_at": "2018-09-02T22:52:06.723Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1041.json",
@@ -824,7 +842,10 @@
     "rating": null,
     "category": "",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "EcoCert"],
+    "tag_list": [
+      "purpicks",
+      "EcoCert"
+    ],
     "created_at": "2018-06-30T19:19:32.252Z",
     "updated_at": "2018-09-02T22:52:06.714Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1040.json",
@@ -859,7 +880,11 @@
     "rating": null,
     "category": "powder",
     "product_type": "foundation",
-    "tag_list": ["EWG Verified", "purpicks", "Gluten Free"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Gluten Free"
+    ],
     "created_at": "2018-06-30T19:19:32.191Z",
     "updated_at": "2018-06-30T20:26:26.417Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1039.json",
@@ -886,7 +911,10 @@
     "rating": null,
     "category": "",
     "product_type": "eyeshadow",
-    "tag_list": ["EWG Verified", "purpicks"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks"
+    ],
     "created_at": "2018-06-30T19:19:32.132Z",
     "updated_at": "2018-09-02T22:52:06.697Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1038.json",
@@ -913,7 +941,10 @@
     "rating": null,
     "category": "lip_gloss",
     "product_type": "lipstick",
-    "tag_list": ["EWG Verified", "purpicks"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks"
+    ],
     "created_at": "2018-06-30T19:19:32.053Z",
     "updated_at": "2018-09-02T22:52:06.687Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1037.json",
@@ -960,7 +991,12 @@
     "rating": null,
     "category": "",
     "product_type": "eyeshadow",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:31.988Z",
     "updated_at": "2018-09-02T22:52:06.678Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1036.json",
@@ -995,7 +1031,12 @@
     "rating": null,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:31.909Z",
     "updated_at": "2018-09-02T22:52:06.855Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1035.json",
@@ -1030,7 +1071,12 @@
     "rating": null,
     "category": "",
     "product_type": "eyeshadow",
-    "tag_list": ["EWG Verified", "purpicks", "Organic", "Vegan"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Organic",
+      "Vegan"
+    ],
     "created_at": "2018-06-30T19:19:31.827Z",
     "updated_at": "2018-09-02T22:52:06.661Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1034.json",
@@ -1081,7 +1127,12 @@
     "rating": null,
     "category": "powder",
     "product_type": "foundation",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:31.736Z",
     "updated_at": "2018-09-02T22:52:06.652Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1033.json",
@@ -1144,7 +1195,12 @@
     "rating": null,
     "category": "powder",
     "product_type": "bronzer",
-    "tag_list": ["EWG Verified", "purpicks", "Vegan", "Gluten Free"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Vegan",
+      "Gluten Free"
+    ],
     "created_at": "2018-06-30T19:19:31.682Z",
     "updated_at": "2018-09-02T22:52:06.643Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1032.json",
@@ -1171,7 +1227,12 @@
     "rating": null,
     "category": "powder",
     "product_type": "bronzer",
-    "tag_list": ["EWG Verified", "purpicks", "Vegan", "Gluten Free"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Vegan",
+      "Gluten Free"
+    ],
     "created_at": "2018-06-30T19:19:31.624Z",
     "updated_at": "2018-09-02T22:52:06.629Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1031.json",
@@ -1259,7 +1320,9 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["purpicks"],
+    "tag_list": [
+      "purpicks"
+    ],
     "created_at": "2018-06-30T19:19:31.441Z",
     "updated_at": "2018-09-02T22:52:06.839Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1029.json",
@@ -1342,7 +1405,10 @@
     "rating": null,
     "category": "powder",
     "product_type": "foundation",
-    "tag_list": ["purpicks", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:31.368Z",
     "updated_at": "2018-09-02T22:52:06.609Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1028.json",
@@ -1401,7 +1467,10 @@
     "rating": null,
     "category": "",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:31.278Z",
     "updated_at": "2018-09-02T22:52:06.599Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1027.json",
@@ -1476,7 +1545,10 @@
     "rating": null,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["purpicks", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:31.234Z",
     "updated_at": "2018-09-02T22:52:06.590Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1026.json",
@@ -1507,7 +1579,10 @@
     "rating": null,
     "category": "",
     "product_type": "mascara",
-    "tag_list": ["purpicks", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:31.192Z",
     "updated_at": "2018-09-02T22:52:06.828Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1025.json",
@@ -1534,7 +1609,10 @@
     "rating": null,
     "category": "",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:31.101Z",
     "updated_at": "2018-09-02T22:52:06.518Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1024.json",
@@ -1609,7 +1687,12 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["purpicks", "Vegan", "Gluten Free", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "Vegan",
+      "Gluten Free",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:31.034Z",
     "updated_at": "2018-09-02T22:52:06.510Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1023.json",
@@ -1648,7 +1731,10 @@
     "rating": null,
     "category": "lip_gloss",
     "product_type": "lipstick",
-    "tag_list": ["purpicks", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:30.964Z",
     "updated_at": "2018-09-02T22:52:06.502Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1022.json",
@@ -1703,7 +1789,12 @@
     "rating": null,
     "category": "gel",
     "product_type": "eyeliner",
-    "tag_list": ["purpicks", "Vegan", "Gluten Free", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "Vegan",
+      "Gluten Free",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:30.898Z",
     "updated_at": "2018-09-02T22:52:06.494Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1021.json",
@@ -1730,7 +1821,10 @@
     "rating": null,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["purpicks", "CertClean"],
+    "tag_list": [
+      "purpicks",
+      "CertClean"
+    ],
     "created_at": "2018-06-30T19:19:30.847Z",
     "updated_at": "2018-09-02T22:52:06.484Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1020.json",
@@ -1765,7 +1859,10 @@
     "rating": null,
     "category": "pencil",
     "product_type": "eyebrow",
-    "tag_list": ["EWG Verified", "purpicks"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks"
+    ],
     "created_at": "2018-06-30T19:19:30.782Z",
     "updated_at": "2018-09-02T22:52:06.474Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1019.json",
@@ -1808,7 +1905,11 @@
     "rating": null,
     "category": "",
     "product_type": "mascara",
-    "tag_list": ["purpicks", "Organic", "USDA Organic"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "USDA Organic"
+    ],
     "created_at": "2018-06-30T19:19:30.735Z",
     "updated_at": "2018-09-02T22:52:06.816Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1018.json",
@@ -1835,7 +1936,11 @@
     "rating": null,
     "category": "cream",
     "product_type": "blush",
-    "tag_list": ["purpicks", "Organic", "USDA Organic"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "USDA Organic"
+    ],
     "created_at": "2018-06-30T19:19:30.678Z",
     "updated_at": "2018-09-02T22:52:06.437Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1017.json",
@@ -1870,7 +1975,11 @@
     "rating": null,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "Organic", "USDA Organic"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "USDA Organic"
+    ],
     "created_at": "2018-06-30T19:19:30.618Z",
     "updated_at": "2018-09-02T22:52:06.804Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1016.json",
@@ -1909,7 +2018,11 @@
     "rating": null,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "Organic", "USDA Organic"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "USDA Organic"
+    ],
     "created_at": "2018-06-30T19:19:30.555Z",
     "updated_at": "2018-09-02T22:52:06.788Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1015.json",
@@ -1948,7 +2061,11 @@
     "rating": null,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "Organic", "USDA Organic"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "USDA Organic"
+    ],
     "created_at": "2018-06-30T19:19:30.490Z",
     "updated_at": "2018-09-02T22:52:06.773Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1014.json",
@@ -1987,7 +2104,11 @@
     "rating": null,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "Organic", "USDA Organic"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "USDA Organic"
+    ],
     "created_at": "2018-06-30T19:19:30.422Z",
     "updated_at": "2018-09-02T22:52:06.762Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1013.json",
@@ -2026,7 +2147,11 @@
     "rating": null,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "Organic", "USDA Organic"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "USDA Organic"
+    ],
     "created_at": "2018-06-30T19:19:30.347Z",
     "updated_at": "2018-09-02T22:52:06.753Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1012.json",
@@ -2065,7 +2190,10 @@
     "rating": null,
     "category": "",
     "product_type": "mascara",
-    "tag_list": ["purpicks", "EcoCert"],
+    "tag_list": [
+      "purpicks",
+      "EcoCert"
+    ],
     "created_at": "2018-06-30T19:19:30.303Z",
     "updated_at": "2018-09-02T22:52:06.581Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1011.json",
@@ -2092,7 +2220,12 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:30.184Z",
     "updated_at": "2018-09-02T22:52:06.571Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1010.json",
@@ -2175,7 +2308,12 @@
     "rating": null,
     "category": "lip_gloss",
     "product_type": "lipstick",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:30.116Z",
     "updated_at": "2018-09-02T22:52:06.562Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1009.json",
@@ -2210,7 +2348,12 @@
     "rating": null,
     "category": "",
     "product_type": "mascara",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:30.056Z",
     "updated_at": "2018-09-02T22:52:06.553Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1008.json",
@@ -2237,7 +2380,12 @@
     "rating": null,
     "category": "pencil",
     "product_type": "lip_liner",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:29.975Z",
     "updated_at": "2018-09-02T22:52:06.545Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1007.json",
@@ -2284,7 +2432,12 @@
     "rating": null,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["EWG Verified", "purpicks", "Hypoallergenic", "No Talc"],
+    "tag_list": [
+      "EWG Verified",
+      "purpicks",
+      "Hypoallergenic",
+      "No Talc"
+    ],
     "created_at": "2018-06-30T19:19:29.910Z",
     "updated_at": "2018-09-02T22:52:06.537Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1006.json",
@@ -2311,7 +2464,11 @@
     "rating": null,
     "category": "cream",
     "product_type": "eyeshadow",
-    "tag_list": ["purpicks", "Organic", "Vegan"],
+    "tag_list": [
+      "purpicks",
+      "Organic",
+      "Vegan"
+    ],
     "created_at": "2018-06-30T19:19:29.708Z",
     "updated_at": "2018-09-02T22:52:06.744Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1005.json",
@@ -25325,7 +25482,9 @@
     "rating": null,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:36:42.548Z",
     "updated_at": "2017-12-23T21:08:53.214Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/514.json",
@@ -25449,7 +25608,12 @@
     "rating": null,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Canadian", "Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:36:30.602Z",
     "updated_at": "2017-12-23T21:08:52.329Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/507.json",
@@ -25480,7 +25644,9 @@
     "rating": null,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:36:29.496Z",
     "updated_at": "2017-12-23T21:08:52.232Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/506.json",
@@ -25565,7 +25731,10 @@
     "rating": 4,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:36:23.141Z",
     "updated_at": "2017-12-23T21:08:51.408Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/503.json",
@@ -25699,7 +25868,9 @@
     "rating": null,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:36:17.524Z",
     "updated_at": "2017-12-23T21:08:50.883Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/497.json",
@@ -25906,7 +26077,10 @@
     "rating": 5,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:36:08.383Z",
     "updated_at": "2017-12-23T21:08:25.049Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/490.json",
@@ -25982,7 +26156,9 @@
     "rating": 5,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:36:04.559Z",
     "updated_at": "2017-12-23T21:08:49.806Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/487.json",
@@ -26036,7 +26212,9 @@
     "rating": 4,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:36:00.689Z",
     "updated_at": "2017-12-23T21:08:49.601Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/485.json",
@@ -26067,7 +26245,10 @@
     "rating": 2.5,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:35:59.720Z",
     "updated_at": "2017-12-23T21:08:49.508Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/484.json",
@@ -26098,7 +26279,9 @@
     "rating": 4.6,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:35:58.830Z",
     "updated_at": "2017-12-23T21:08:49.348Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/483.json",
@@ -26120,7 +26303,10 @@
     "rating": 5,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:35:50.126Z",
     "updated_at": "2017-12-23T21:08:49.114Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/481.json",
@@ -26174,7 +26360,9 @@
     "rating": 4,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:35:45.848Z",
     "updated_at": "2017-12-23T21:08:48.712Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/479.json",
@@ -26196,7 +26384,9 @@
     "rating": 4.4,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:35:44.180Z",
     "updated_at": "2017-12-23T21:08:48.484Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/478.json",
@@ -26464,7 +26654,12 @@
     "rating": null,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Canadian", "Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:35:28.524Z",
     "updated_at": "2017-12-23T21:08:42.899Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/469.json",
@@ -26529,7 +26724,9 @@
     "rating": 3,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:35:26.482Z",
     "updated_at": "2017-12-23T21:08:46.993Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/467.json",
@@ -26679,7 +26876,9 @@
     "rating": 3.8,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:35:21.503Z",
     "updated_at": "2017-12-23T21:08:50.391Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/462.json",
@@ -26701,7 +26900,10 @@
     "rating": 5,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Organic", "Natural"],
+    "tag_list": [
+      "Organic",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:35:20.179Z",
     "updated_at": "2017-12-23T21:08:47.241Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/461.json",
@@ -26767,7 +26969,10 @@
     "rating": 5,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:35:16.184Z",
     "updated_at": "2017-12-23T21:08:41.903Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/459.json",
@@ -26846,7 +27051,9 @@
     "rating": 4,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:35:13.466Z",
     "updated_at": "2017-12-23T20:51:32.291Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/456.json",
@@ -26890,7 +27097,9 @@
     "rating": null,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:35:11.086Z",
     "updated_at": "2017-12-23T20:51:21.171Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/454.json",
@@ -27002,7 +27211,9 @@
     "rating": 4,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:35:06.089Z",
     "updated_at": "2017-12-23T21:08:45.444Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/451.json",
@@ -27139,7 +27350,9 @@
     "rating": 4.7,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:34:58.233Z",
     "updated_at": "2017-12-23T21:08:46.094Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/446.json",
@@ -27161,7 +27374,10 @@
     "rating": 4,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:34:55.831Z",
     "updated_at": "2017-12-23T21:08:45.969Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/445.json",
@@ -27196,7 +27412,9 @@
     "rating": 4.8,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:34:53.304Z",
     "updated_at": "2017-12-23T21:08:45.797Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/444.json",
@@ -27249,7 +27467,9 @@
     "rating": 4.8,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:34:50.790Z",
     "updated_at": "2017-12-23T21:08:45.578Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/442.json",
@@ -27271,7 +27491,9 @@
     "rating": 4.7,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:34:49.620Z",
     "updated_at": "2017-12-23T21:08:45.339Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/441.json",
@@ -27310,7 +27532,10 @@
     "rating": 4.5,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:34:47.620Z",
     "updated_at": "2017-12-23T21:08:45.234Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/440.json",
@@ -27396,7 +27621,10 @@
     "rating": 4.9,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:34:45.305Z",
     "updated_at": "2017-12-23T21:08:48.996Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/438.json",
@@ -27427,7 +27655,13 @@
     "rating": 4.4,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Canadian", "Vegan", "Non-GMO", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Vegan",
+      "Non-GMO",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:34:42.997Z",
     "updated_at": "2017-12-23T21:08:44.981Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/437.json",
@@ -27681,7 +27915,9 @@
     "rating": 4.3,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:34:37.138Z",
     "updated_at": "2017-12-23T21:08:48.606Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/431.json",
@@ -27751,7 +27987,9 @@
     "rating": 5,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:34:34.231Z",
     "updated_at": "2017-12-23T21:08:43.426Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/429.json",
@@ -27938,7 +28176,9 @@
     "rating": 5,
     "category": "cream",
     "product_type": "blush",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:34:23.030Z",
     "updated_at": "2017-12-23T21:08:41.237Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/418.json",
@@ -27999,7 +28239,10 @@
     "rating": 2.3,
     "category": "cream",
     "product_type": "blush",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:34:19.742Z",
     "updated_at": "2017-12-23T21:08:40.672Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/416.json",
@@ -28042,7 +28285,9 @@
     "rating": 4,
     "category": "cream",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:34:18.458Z",
     "updated_at": "2017-12-23T21:08:40.580Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/415.json",
@@ -28288,7 +28533,9 @@
     "rating": null,
     "category": null,
     "product_type": "lip_liner",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:33:55.084Z",
     "updated_at": "2017-12-23T21:08:39.676Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/408.json",
@@ -28379,7 +28626,10 @@
     "rating": null,
     "category": null,
     "product_type": "lip_liner",
-    "tag_list": ["Canadian", "Gluten Free"],
+    "tag_list": [
+      "Canadian",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:33:47.733Z",
     "updated_at": "2017-12-23T21:08:39.474Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/405.json",
@@ -28448,7 +28698,10 @@
     "rating": 3,
     "category": null,
     "product_type": "lip_liner",
-    "tag_list": ["Canadian", "Gluten Free"],
+    "tag_list": [
+      "Canadian",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:33:46.081Z",
     "updated_at": "2017-12-23T21:08:39.247Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/403.json",
@@ -28836,7 +29089,9 @@
     "rating": 3.7,
     "category": null,
     "product_type": "lip_liner",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:33:36.185Z",
     "updated_at": "2017-12-23T21:08:38.510Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/395.json",
@@ -28960,7 +29215,11 @@
     "rating": 4.4,
     "category": null,
     "product_type": "lip_liner",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:33:33.446Z",
     "updated_at": "2017-12-23T21:08:38.219Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/392.json",
@@ -28987,7 +29246,9 @@
     "rating": null,
     "category": "cream",
     "product_type": "foundation",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:33:32.374Z",
     "updated_at": "2017-12-23T21:08:38.121Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/391.json",
@@ -29093,7 +29354,9 @@
     "rating": 5,
     "category": "cream",
     "product_type": "foundation",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:33:26.416Z",
     "updated_at": "2017-12-23T21:08:36.333Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/389.json",
@@ -29124,7 +29387,9 @@
     "rating": 2.5,
     "category": "cream",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:33:25.085Z",
     "updated_at": "2017-12-23T21:08:36.185Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/388.json",
@@ -29155,7 +29420,9 @@
     "rating": 4,
     "category": "cream",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:33:21.967Z",
     "updated_at": "2017-12-23T21:08:36.063Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/387.json",
@@ -29199,7 +29466,9 @@
     "rating": 3.8,
     "category": "cream",
     "product_type": "foundation",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:33:16.833Z",
     "updated_at": "2017-12-23T21:08:35.690Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/385.json",
@@ -29449,7 +29718,9 @@
     "rating": 4.8,
     "category": "cream",
     "product_type": "foundation",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:33:09.497Z",
     "updated_at": "2017-12-23T21:08:33.304Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/378.json",
@@ -29476,7 +29747,11 @@
     "rating": null,
     "category": "cream",
     "product_type": "foundation",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:33:01.981Z",
     "updated_at": "2017-12-23T21:08:38.025Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/377.json",
@@ -29498,7 +29773,10 @@
     "rating": null,
     "category": "mineral",
     "product_type": "foundation",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:32:58.664Z",
     "updated_at": "2017-12-23T21:08:32.175Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/376.json",
@@ -29623,7 +29901,10 @@
     "rating": 4,
     "category": "mineral",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:32:55.338Z",
     "updated_at": "2017-12-23T21:08:31.670Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/374.json",
@@ -29771,7 +30052,9 @@
     "rating": 4.8,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:32:48.923Z",
     "updated_at": "2017-12-23T21:08:30.276Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/370.json",
@@ -29793,7 +30076,9 @@
     "rating": 4.7,
     "category": "mineral",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:32:47.547Z",
     "updated_at": "2017-12-23T21:08:30.036Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/369.json",
@@ -29815,7 +30100,9 @@
     "rating": 4.7,
     "category": "mineral",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:32:46.151Z",
     "updated_at": "2017-12-23T21:08:29.879Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/368.json",
@@ -29846,7 +30133,10 @@
     "rating": 4.3,
     "category": "mineral",
     "product_type": "foundation",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:32:43.895Z",
     "updated_at": "2017-12-23T21:08:29.773Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/367.json",
@@ -29904,7 +30194,9 @@
     "rating": 4.6,
     "category": "mineral",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:32:40.412Z",
     "updated_at": "2017-12-23T21:08:29.446Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/365.json",
@@ -29939,7 +30231,10 @@
     "rating": 3.9,
     "category": "mineral",
     "product_type": "foundation",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:32:37.791Z",
     "updated_at": "2017-12-23T21:08:29.343Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/364.json",
@@ -30037,7 +30332,10 @@
     "rating": 4,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:32:25.658Z",
     "updated_at": "2017-12-23T21:08:27.641Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/356.json",
@@ -30333,7 +30631,10 @@
     "rating": 4,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:32:11.060Z",
     "updated_at": "2017-12-23T21:08:25.741Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/347.json",
@@ -30556,7 +30857,9 @@
     "rating": 4.5,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:31:57.911Z",
     "updated_at": "2017-12-23T21:08:22.947Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/340.json",
@@ -30832,7 +31135,9 @@
     "rating": 4.7,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:31:47.887Z",
     "updated_at": "2017-12-23T21:08:21.628Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/333.json",
@@ -31213,7 +31518,10 @@
     "rating": 4.7,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:31:34.008Z",
     "updated_at": "2017-12-23T21:08:20.854Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/323.json",
@@ -31256,7 +31564,9 @@
     "rating": 4,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:31:32.515Z",
     "updated_at": "2017-12-23T21:08:20.732Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/322.json",
@@ -31534,7 +31844,10 @@
     "rating": 4.1,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:31:22.885Z",
     "updated_at": "2017-12-23T21:08:20.219Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/316.json",
@@ -31609,7 +31922,9 @@
     "rating": 3.8,
     "category": "liquid",
     "product_type": "foundation",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:31:21.140Z",
     "updated_at": "2017-12-23T21:08:20.082Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/315.json",
@@ -31688,7 +32003,9 @@
     "rating": null,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:31:15.060Z",
     "updated_at": "2017-12-23T21:08:19.458Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/312.json",
@@ -31745,7 +32062,9 @@
     "rating": 5,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:31:04.883Z",
     "updated_at": "2017-12-23T21:08:18.676Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/310.json",
@@ -31826,7 +32145,11 @@
     "rating": 5,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:59.801Z",
     "updated_at": "2017-12-23T21:08:19.026Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/308.json",
@@ -31924,7 +32247,9 @@
     "rating": 4.5,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:30:54.598Z",
     "updated_at": "2017-12-26T00:33:00.796Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/306.json",
@@ -31968,7 +32293,9 @@
     "rating": 4,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:30:52.760Z",
     "updated_at": "2017-12-26T00:37:41.618Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/304.json",
@@ -32047,7 +32374,9 @@
     "rating": 5,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:30:47.875Z",
     "updated_at": "2017-12-23T21:08:17.334Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/301.json",
@@ -32239,7 +32568,9 @@
     "rating": 5,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:30:38.694Z",
     "updated_at": "2017-12-23T21:08:16.848Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/296.json",
@@ -32283,7 +32614,10 @@
     "rating": 4.3,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:34.166Z",
     "updated_at": "2017-12-23T21:08:18.818Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/294.json",
@@ -32340,7 +32674,9 @@
     "rating": 5,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:30:30.370Z",
     "updated_at": "2017-12-23T21:08:17.612Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/292.json",
@@ -32405,7 +32741,9 @@
     "rating": 4.8,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:26.832Z",
     "updated_at": "2017-12-26T00:33:00.261Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/290.json",
@@ -32449,7 +32787,10 @@
     "rating": 4.9,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:22.518Z",
     "updated_at": "2017-12-26T00:33:00.654Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/288.json",
@@ -32488,7 +32829,9 @@
     "rating": 2.6,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:30:21.480Z",
     "updated_at": "2017-12-23T21:08:14.685Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/287.json",
@@ -32559,7 +32902,9 @@
     "rating": 4.8,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:30:17.900Z",
     "updated_at": "2017-12-26T00:38:39.219Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/284.json",
@@ -32606,7 +32951,11 @@
     "rating": 4.6,
     "category": "palette",
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:16.741Z",
     "updated_at": "2017-12-26T00:33:00.629Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/283.json",
@@ -32667,7 +33016,10 @@
     "rating": 4.5,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:13.373Z",
     "updated_at": "2017-12-23T21:08:13.317Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/281.json",
@@ -32812,7 +33164,11 @@
     "rating": 3.6,
     "category": "powder",
     "product_type": "blush",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:09.334Z",
     "updated_at": "2017-12-23T21:08:44.239Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/278.json",
@@ -32847,7 +33203,9 @@
     "rating": 4.6,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:30:07.788Z",
     "updated_at": "2017-12-23T21:08:11.874Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/277.json",
@@ -32908,7 +33266,13 @@
     "rating": 4.5,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Canadian", "Vegan", "Non-GMO", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Vegan",
+      "Non-GMO",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:03.877Z",
     "updated_at": "2017-12-23T21:08:11.558Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/275.json",
@@ -33011,7 +33375,10 @@
     "rating": 4.9,
     "category": null,
     "product_type": "bronzer",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:30:02.836Z",
     "updated_at": "2017-12-23T21:08:48.370Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/274.json",
@@ -33243,7 +33610,10 @@
     "rating": null,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:29:45.558Z",
     "updated_at": "2017-12-23T21:08:08.553Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/262.json",
@@ -33318,7 +33688,9 @@
     "rating": null,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:29:40.955Z",
     "updated_at": "2017-12-23T21:08:04.323Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/259.json",
@@ -33393,7 +33765,9 @@
     "rating": null,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:29:34.360Z",
     "updated_at": "2017-12-23T21:08:19.178Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/256.json",
@@ -33479,7 +33853,9 @@
     "rating": null,
     "category": null,
     "product_type": "lip_liner",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:29:32.153Z",
     "updated_at": "2017-12-23T21:08:37.423Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/254.json",
@@ -33528,7 +33904,10 @@
     "rating": 4.5,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:29:29.451Z",
     "updated_at": "2017-12-23T21:08:05.636Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/252.json",
@@ -33646,7 +34025,11 @@
     "rating": 5,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:29:24.754Z",
     "updated_at": "2017-12-23T21:08:04.906Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/248.json",
@@ -33717,7 +34100,9 @@
     "rating": 3,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian"],
+    "tag_list": [
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:29:17.331Z",
     "updated_at": "2017-12-23T20:51:33.920Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/244.json",
@@ -33796,7 +34181,9 @@
     "rating": 5,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:29:14.986Z",
     "updated_at": "2017-12-23T20:51:33.744Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/243.json",
@@ -33918,7 +34305,9 @@
     "rating": 5,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:29:05.433Z",
     "updated_at": "2017-12-23T21:08:04.790Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/238.json",
@@ -34028,7 +34417,11 @@
     "rating": 3.9,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:29:01.951Z",
     "updated_at": "2017-12-23T20:51:26.864Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/234.json",
@@ -34190,7 +34583,10 @@
     "rating": 4,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:28:55.009Z",
     "updated_at": "2017-12-23T20:51:30.551Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/229.json",
@@ -34252,7 +34648,11 @@
     "rating": 3.4,
     "category": "pencil",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian", "Vegan", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:28:52.926Z",
     "updated_at": "2017-12-23T20:51:30.288Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/227.json",
@@ -34563,7 +34963,10 @@
     "rating": null,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:28:31.363Z",
     "updated_at": "2017-12-23T20:51:25.270Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/210.json",
@@ -34674,7 +35077,10 @@
     "rating": null,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian", "Gluten Free"],
+    "tag_list": [
+      "Canadian",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:28:24.614Z",
     "updated_at": "2017-12-23T20:51:20.706Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/204.json",
@@ -34749,7 +35155,10 @@
     "rating": 5,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian", "Gluten Free"],
+    "tag_list": [
+      "Canadian",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:28:21.112Z",
     "updated_at": "2017-12-23T20:51:24.613Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/201.json",
@@ -34824,7 +35233,10 @@
     "rating": null,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian", "Gluten Free"],
+    "tag_list": [
+      "Canadian",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:28:17.479Z",
     "updated_at": "2017-12-23T20:51:24.217Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/198.json",
@@ -34863,7 +35275,9 @@
     "rating": null,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:28:16.184Z",
     "updated_at": "2017-12-23T20:51:23.403Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/197.json",
@@ -34885,7 +35299,10 @@
     "rating": 3.7,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:28:15.341Z",
     "updated_at": "2017-12-23T20:51:23.261Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/196.json",
@@ -34973,7 +35390,9 @@
     "rating": 5,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:28:09.888Z",
     "updated_at": "2017-12-23T20:51:21.808Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/192.json",
@@ -34995,7 +35414,13 @@
     "rating": 3.3,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian", "Organic", "Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Organic",
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:28:07.638Z",
     "updated_at": "2017-12-23T20:51:18.506Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/191.json",
@@ -35065,7 +35490,9 @@
     "rating": 5,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:28:05.122Z",
     "updated_at": "2017-12-23T20:51:21.487Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/189.json",
@@ -35087,7 +35514,10 @@
     "rating": 3,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:27:59.358Z",
     "updated_at": "2017-12-23T21:08:16.623Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/188.json",
@@ -35118,7 +35548,11 @@
     "rating": 3.5,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Canadian", "Vegan", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:27:58.685Z",
     "updated_at": "2017-12-23T20:51:19.607Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/187.json",
@@ -35237,7 +35671,9 @@
     "rating": 5,
     "category": null,
     "product_type": "eyeshadow",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:27:54.039Z",
     "updated_at": "2017-12-23T21:08:15.537Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/182.json",
@@ -35281,7 +35717,9 @@
     "rating": 3.7,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:27:52.499Z",
     "updated_at": "2017-12-23T20:51:16.660Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/180.json",
@@ -35387,7 +35825,9 @@
     "rating": 4.3,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:27:49.060Z",
     "updated_at": "2017-12-23T20:51:16.031Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/176.json",
@@ -35467,7 +35907,9 @@
     "rating": 4,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:27:45.229Z",
     "updated_at": "2017-12-23T20:51:14.119Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/173.json",
@@ -35529,7 +35971,9 @@
     "rating": 4.5,
     "category": "liquid",
     "product_type": "eyeliner",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:27:43.484Z",
     "updated_at": "2017-12-23T20:51:13.813Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/171.json",
@@ -35902,7 +36346,9 @@
     "rating": 5,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:27:27.227Z",
     "updated_at": "2017-12-23T20:51:12.512Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/161.json",
@@ -36563,7 +37009,9 @@
     "rating": 5,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:26:49.175Z",
     "updated_at": "2017-12-23T20:51:04.283Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/144.json",
@@ -36650,7 +37098,9 @@
     "rating": 5,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:26:43.637Z",
     "updated_at": "2017-12-23T20:31:49.999Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/140.json",
@@ -36789,7 +37239,9 @@
     "rating": 4.4,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:37.072Z",
     "updated_at": "2017-12-23T20:51:07.242Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/136.json",
@@ -36816,7 +37268,10 @@
     "rating": 5,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:34.722Z",
     "updated_at": "2017-12-23T20:51:06.988Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/135.json",
@@ -36908,7 +37363,10 @@
     "rating": 5,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:29.351Z",
     "updated_at": "2017-12-23T20:51:05.773Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/132.json",
@@ -37004,7 +37462,10 @@
     "rating": 5,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:23.723Z",
     "updated_at": "2017-12-23T20:51:04.648Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/129.json",
@@ -37123,7 +37584,10 @@
     "rating": 3.8,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:19.609Z",
     "updated_at": "2017-12-23T20:51:04.175Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/128.json",
@@ -37180,7 +37644,13 @@
     "rating": 4.8,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Canadian", "Vegan", "Non-GMO", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Vegan",
+      "Non-GMO",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:15.348Z",
     "updated_at": "2017-12-23T20:51:04.558Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/126.json",
@@ -37430,7 +37900,10 @@
     "rating": 4,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:11.009Z",
     "updated_at": "2017-12-23T20:51:03.499Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/124.json",
@@ -37922,7 +38395,10 @@
     "rating": 4,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:03.724Z",
     "updated_at": "2017-12-23T20:51:03.088Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/120.json",
@@ -37944,7 +38420,10 @@
     "rating": 4,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:26:02.121Z",
     "updated_at": "2017-12-23T20:51:02.898Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/119.json",
@@ -37988,7 +38467,9 @@
     "rating": 4.3,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:25:57.245Z",
     "updated_at": "2017-12-23T20:51:02.048Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/116.json",
@@ -38091,7 +38572,10 @@
     "rating": 3.9,
     "category": null,
     "product_type": "nail_polish",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:25:55.201Z",
     "updated_at": "2017-12-23T20:51:01.931Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/115.json",
@@ -38407,7 +38891,11 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Vegan", "Gluten Free", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:25:38.145Z",
     "updated_at": "2017-12-23T21:08:30.160Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/101.json",
@@ -38450,7 +38938,10 @@
     "rating": 5,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Organic", "Natural"],
+    "tag_list": [
+      "Organic",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:25:36.091Z",
     "updated_at": "2017-12-23T21:08:24.940Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/99.json",
@@ -38472,7 +38963,10 @@
     "rating": null,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Canadian", "Gluten Free"],
+    "tag_list": [
+      "Canadian",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:25:34.246Z",
     "updated_at": "2017-12-23T20:50:58.631Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/98.json",
@@ -38850,7 +39344,9 @@
     "rating": 4.8,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:25:26.646Z",
     "updated_at": "2017-12-23T20:50:59.834Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/92.json",
@@ -39130,7 +39626,10 @@
     "rating": 3.8,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:25:17.425Z",
     "updated_at": "2017-12-23T20:50:58.258Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/87.json",
@@ -39910,7 +40409,10 @@
     "rating": 4.3,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:24:53.472Z",
     "updated_at": "2017-12-23T20:50:55.441Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/71.json",
@@ -39937,7 +40439,9 @@
     "rating": 3.7,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:24:52.538Z",
     "updated_at": "2017-12-23T20:50:55.199Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/70.json",
@@ -40354,7 +40858,9 @@
     "rating": 4.5,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:24:39.636Z",
     "updated_at": "2017-12-23T20:50:59.543Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/62.json",
@@ -40393,7 +40899,9 @@
     "rating": 4.3,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:24:38.689Z",
     "updated_at": "2017-12-23T20:50:55.942Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/61.json",
@@ -40836,7 +41344,9 @@
     "rating": 4.1,
     "category": "lipstick",
     "product_type": "lipstick",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:24:29.248Z",
     "updated_at": "2017-12-23T20:50:54.727Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/56.json",
@@ -40968,7 +41478,10 @@
     "rating": 3.4,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:11:49.193Z",
     "updated_at": "2017-12-23T20:31:53.342Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/54.json",
@@ -41065,7 +41578,12 @@
     "rating": 4.8,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Natural", "Organic", "Gluten Free", "Canadian"],
+    "tag_list": [
+      "Natural",
+      "Organic",
+      "Gluten Free",
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:11:43.566Z",
     "updated_at": "2017-12-23T20:50:54.486Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/50.json",
@@ -41109,7 +41627,9 @@
     "rating": 4.6,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Gluten Free"],
+    "tag_list": [
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:11:41.267Z",
     "updated_at": "2017-12-23T20:50:54.214Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/48.json",
@@ -41342,7 +41862,10 @@
     "rating": 3.2,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Natural", "Gluten Free"],
+    "tag_list": [
+      "Natural",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:11:31.316Z",
     "updated_at": "2017-12-23T20:50:53.163Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/39.json",
@@ -41373,7 +41896,10 @@
     "rating": 4.5,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Canadian", "Gluten Free"],
+    "tag_list": [
+      "Canadian",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:11:30.120Z",
     "updated_at": "2017-12-23T20:50:53.038Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/38.json",
@@ -41404,7 +41930,9 @@
     "rating": 4,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:11:29.378Z",
     "updated_at": "2017-12-23T20:50:52.867Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/37.json",
@@ -41620,7 +42148,10 @@
     "rating": 3.1,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:11:18.662Z",
     "updated_at": "2017-12-23T20:31:51.643Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/28.json",
@@ -41651,7 +42182,9 @@
     "rating": 4.3,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Natural"],
+    "tag_list": [
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:11:17.326Z",
     "updated_at": "2017-12-23T20:31:51.471Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/27.json",
@@ -41686,7 +42219,9 @@
     "rating": 4.8,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:11:16.641Z",
     "updated_at": "2017-12-23T20:31:51.310Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/26.json",
@@ -41801,7 +42336,9 @@
     "rating": 4.3,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Vegan"],
+    "tag_list": [
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:11:11.865Z",
     "updated_at": "2017-12-23T20:31:48.648Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/22.json",
@@ -41823,7 +42360,10 @@
     "rating": 4.1,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Canadian", "Natural"],
+    "tag_list": [
+      "Canadian",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:11:10.938Z",
     "updated_at": "2017-12-23T20:31:49.596Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/21.json",
@@ -41930,7 +42470,11 @@
     "rating": 3.4,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Natural", "Vegan", "Canadian"],
+    "tag_list": [
+      "Natural",
+      "Vegan",
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:11:07.137Z",
     "updated_at": "2017-12-23T20:31:50.499Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/17.json",
@@ -41952,7 +42496,10 @@
     "rating": 4.8,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Natural", "Vegan"],
+    "tag_list": [
+      "Natural",
+      "Vegan"
+    ],
     "created_at": "2016-10-01T18:11:04.325Z",
     "updated_at": "2017-12-23T21:08:53.407Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/16.json",
@@ -41974,7 +42521,10 @@
     "rating": 4,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:11:03.194Z",
     "updated_at": "2017-12-23T20:31:49.843Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/15.json",
@@ -42271,7 +42821,10 @@
     "rating": 4.2,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Vegan", "Natural"],
+    "tag_list": [
+      "Vegan",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:10:52.756Z",
     "updated_at": "2017-12-23T20:31:47.230Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/5.json",
@@ -42293,7 +42846,10 @@
     "rating": 3.9,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Gluten Free", "Natural"],
+    "tag_list": [
+      "Gluten Free",
+      "Natural"
+    ],
     "created_at": "2016-10-01T18:10:51.387Z",
     "updated_at": "2017-12-23T20:31:47.075Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/4.json",
@@ -42324,7 +42880,10 @@
     "rating": 3.7,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Natural", "Gluten Free"],
+    "tag_list": [
+      "Natural",
+      "Gluten Free"
+    ],
     "created_at": "2016-10-01T18:10:50.417Z",
     "updated_at": "2017-12-23T20:31:46.951Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/3.json",
@@ -42390,7 +42949,11 @@
     "rating": 4.6,
     "category": null,
     "product_type": "mascara",
-    "tag_list": ["Natural", "Gluten Free", "Canadian"],
+    "tag_list": [
+      "Natural",
+      "Gluten Free",
+      "Canadian"
+    ],
     "created_at": "2016-10-01T18:10:46.893Z",
     "updated_at": "2017-12-23T20:31:46.013Z",
     "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1.json",
