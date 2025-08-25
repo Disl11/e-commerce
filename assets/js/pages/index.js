@@ -5,7 +5,7 @@ import {
   addProductToCart,
   getNumberOfProductsInCart,
 } from "../shared/domain.js";
-import { clearInputValue } from "../shared/utils.js";
+// import { clearInputValue } from "../shared/utils.js";
 
 const productsData = await getProducts();
 getTags(productsData).forEach((tag) => generateTag(tag));
