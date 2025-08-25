@@ -1,11 +1,9 @@
 // logique page accueil (liste, filtre, recherche)
 // chargement produits, rendu liste, filtre, recherche, affichage stock
 import { getProducts } from "../shared/api.js";
-import {
-  addProductToCart,
-  getNumberOfProductsInCart,
-} from "../shared/domain.js";
+import { addProductToCart, isProductInCart } from "../shared/domain.js";
 import { clearInputValue } from "../shared/utils.js";
+import { refreshCartTooltip } from "../shared/utils.js";
 
 const productsData = await getProducts();
 getTags(productsData).forEach((tag) => generateTag(tag));
@@ -66,9 +64,16 @@ function generateProductArticle(product) {
   }
 
   const addToCartBtn = template.querySelector(".stock-and-add button");
-  if (product.stock === 0) addToCartBtn.disabled = true;
+  if (product.stock === 0) {
+    addToCartBtn.disabled = true;
+    addToCartBtn.textContent = "Rupture";
+  } else if (isProductInCart(product.id)) {
+    addToCartBtn.disabled = true;
+    addToCartBtn.textContent = "Ajouté";
+  }
   addToCartBtn.addEventListener("click", () => {
-    addProductToCart(product.id, true);
+    addProductToCart(product.id, true, true);
+    addToCartBtn.disabled = true;
   });
 
   document.querySelector("main .products").appendChild(template);
@@ -186,24 +191,5 @@ function generateProductsByPage(products, select, scrollToTop = true) {
   }
   if (scrollToTop) {
     scrollTo(0, 0);
-  }
-}
-
-export function refreshCartTooltip() {
-  const productsInCart = getNumberOfProductsInCart();
-
-  if (productsInCart) {
-    if (!document.body.contains(document.querySelector(".cart-tooltip"))) {
-      const tooltip = document.createElement("span");
-      tooltip.classList.add("cart-tooltip");
-      tooltip.textContent = productsInCart;
-      document.querySelector(".cartBtn").appendChild(tooltip);
-    } else {
-      document.querySelector(".cart-tooltip").textContent = productsInCart;
-    }
-  } else {
-    if (document.body.contains(document.querySelector(".cart-tooltip"))) {
-      document.querySelector(".cart-tooltip").remove();
-    }
   }
 }

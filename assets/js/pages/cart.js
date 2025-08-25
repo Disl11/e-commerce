@@ -1,15 +1,8 @@
 // logique page panier (lignes, totaux, actions)
 // rendu lignes, gestion +/−/supprimer, recalcul sous-totaux et total, bornage au stock
 
-import {
-  removeProductFromCart,
-  addProductToCart,
-  updateProductStockInCart,
-} from "../shared/domain.js";
+import { removeProductFromCart } from "../shared/domain.js";
 import { getCart } from "../shared/state.js";
-
-// addProductToCart(1);
-// addProductToCart(2);
 
 const areaProduct = document.querySelector("#area-product");
 
@@ -77,7 +70,7 @@ function displayProduct(produit) {
       updateItemPrice(produit, i, price, input);
     });
     // updateProductStockInCart(produit[i].numberInCart);
-    console.log(produit[i].numberInCart);
+    // console.log(produit[i].numberInCart);
 
     const btnTrash = document.createElement("button");
     btnTrash.classList.add("btn-trash");
